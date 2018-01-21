@@ -1,0 +1,508 @@
+html {
+  font-size: 16px;
+}
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo a {
+  text-decoration: none;
+  align-items: right;
+  object-position: right;
+  color: black;
+}
+
+.sign-in li {
+  color: teal;
+}
+
+nav {
+  display: flex;
+  height: 64px;
+  color: black;
+  align-items: right;
+  object-position: right;
+}
+
+.logo {
+  font-size: 32px;
+  font-family: arial;
+  color: black;
+  text-transform: uppercase;
+  display: flex;
+  align-items: right;
+  flex: 3;
+  object-position: right;
+  padding-left: 8px;
+  padding-right: 180px;
+}
+
+.logo a {
+  display: flex;
+  align-items: right;
+  object-position: right;
+  padding-left: 8px;
+  padding-right: 360px;
+}
+
+.computer-navigation {
+  font-family: arial;
+  font-size: 16px;
+  display: flex;
+  flex-direction: row;
+  object-position: center;
+  flex-wrap: wrap;
+  padding: auto;
+}
+
+.computer-navigation li {
+  padding-right: 12px;
+  object-position: right;
+}
+
+.banner-message {
+  align-items: right;
+  position: right;
+  object-position: right;
+}
+.banner-message h1 {
+  font-size: 32px;
+  color: mediumturquoise;
+  align-items: right;
+  object-position: right;
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+}
+
+.banner-message h4 {
+  font-style: arial;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.nav-choice a {
+  text-decoration: none;
+  color: black;
+  align-items: right;
+}
+
+nav li {
+  list-style: none;
+  display: flex;
+  color: black;
+  align-items: right;
+  padding: 24px;
+}
+
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 16px;
+  font-family: 'Nunito', sans-serif;
+}
+
+h2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+h3 {
+  font-size: 1.17em;
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+}
+
+.banner-message h4 {
+  margin-bottom: 24px;
+  font-family: 'Nunito', sans-serif;
+  margin-left: 14px;
+}
+
+p {
+  font-family: 'Nunito', sans-serif;
+}
+
+button {
+  font-family: 'Nunito', sans-serif;
+  font-size: 24px;
+  background: orange;
+  width: 40%;
+  padding: 8px 0;
+  color: white;
+  margin-left: 14px;
+}
+
+img, video {
+  width: 100%;
+  height: auto;
+}
+
+.banner {
+  width: 100%;
+  height: 640px;
+  background-size: cover;
+  font-family: 'Nunito', sans-serif;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background: grey;
+}
+
+.banner img {
+  display: none;
+}
+
+.banner-message {
+  font-family: 'Nunito', sans-serif;
+  padding: 32px 16px;
+  object-position: right;
+}
+
+.banner-picture {
+    background: none;
+    height: auto;
+    width: 620px;
+    padding: 32px 24px;
+  }
+.banner-picture img {
+    display: flex;
+    height: auto;
+    weight: auto;
+  }
+.banner-message {
+    max-width: 423px;
+    object-position: right;
+  }
+.banner-message h1 {
+    font-size: 64px;
+    object-position: right;
+    padding: 32px 16px;
+  }
+
+@media only screen and (min-width: 580px) {
+  .computer-navigation {
+    display: flex;
+    margin-left: 24px;
+    padding-left: 0;
+    width: 100%;
+  }
+  .logo {
+    text-transform: uppercase;
+    display: flex;
+    align-items: center;
+    flex: 1;
+  }
+  .logo a {
+    display: flex;
+    align-items: center;
+  }
+  .logo span {
+    font-weight: bold;
+  }
+  nav li:nth-child(n+1) {
+    margin-right: 16px;
+  }
+  nav li:last-child {
+    margin-right: 24px;
+  }
+  .banner-message h1 {
+    font-size: 4vw;
+  }
+}
+
+.information-tabs {
+  padding: 16px 16px 32px;
+}
+
+.information-text {
+  padding: 8px 16px;
+}
+
+.information-text h3,
+.information-text p {
+  margin-bottom: 8px;
+}
+
+
+.quote-picture {
+  height: 150px;
+  width: auto;
+  overflow: hidden;
+}
+
+.information {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+  }
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: 32px 24px;
+  }
+
+.quote img {
+  min-height: 350px;
+}
+.quote h2 {
+  margin-top: 32px;
+  margin-bottom: 24px;
+  color: dimgrey;
+}
+.quote-picture {
+  height: auto;
+  weight: auto;
+}
+
+.quote-person p {
+  font-family: 'Nunito', sans-serif;
+  font-weight: bold;
+  margin-top: 16px;
+}
+
+.orientation,
+.campus,
+.guest {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  border-bottom: 1px solid grey;
+  border-top: 1px solid grey;
+  padding: 32px;
+  max-width: 120px;
+  height: auto;
+}
+
+.information-tabs {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  margin: 32px 24px;
+  overflow: scroll;
+}
+.information-text p {
+  min-width: 280px;
+  width: 65% auto;
+  height: auto;
+}
+.orientation-image,
+.campus-image,
+.guest-image {
+  height: auto;
+  width: 35% auto;
+  position: left;
+  align-items: left;
+  display: flex;
+  flex-direction: row;
+}
+.orientation-image img,
+.campus-image img,
+.guest-image img {
+  display: flex;
+  height: auto;
+  weight: auto;
+}
+
+.orientation,
+.orientation-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.campus,
+.campus-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.guest,
+.guest-image {
+  display: flex;
+  flex-direction: row;
+}
+
+.information-link {
+  align-items: left;
+  min-width: 300px;
+  color: blue;
+  text-decoration: none;
+}
+
+.information-link a {
+  align-items: left;
+  min-width: 300px;
+  color: teal;
+  text-decoration: none;
+}
+
+.information-text, .information-link {
+  display: flex;
+  flex-direction: column;
+}
+
+.information-tabs div:first-child {
+  margin-top: 16px;
+}
+.information div:nth-child(n+2) {
+  border-top: none;
+}
+.information-tabs {
+  border-left: 1px solid grey;
+  padding-bottom: 32px;
+}
+
+
+
+
+.all-courses {
+  padding: 32px 16px;
+}
+.all-courses h2,
+.exhibition-featured h2 {
+  text-align: center;
+  width: 100%;
+  padding-bottom: 32px;
+  color: dimgrey;
+  font-size: 32px;
+}
+.course-info h3 {
+  padding: 16px;
+  background: grey;
+  margin-bottom: 8px;
+}
+
+.all-courses {
+  background: lightgrey;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.all-courses img, .all-courses .course-info p {
+  display: flex;
+}
+.all-courses img {
+  height: 154px;
+}
+.course-info h3, .course-info {
+  background: white;
+}
+
+.course-info p {
+  padding: 0 16px 8px;
+  color: black;
+}
+.course-info p:last-child {
+  padding: 0 16px 24px;
+}
+.course {
+  width: 350px;
+  margin-right: 32px;
+  margin-bottom: 24px;
+}
+.course {
+  min-height: 180px;
+}
+
+
+.recent-exhibits {
+  display: block;
+}
+.exhibition-container {
+  display: flex;
+  flex-direction: row;
+  padding-left: 24px;
+  margin-bottom: 32px;
+}
+.exhibit-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  max-width: 423px;
+  height: 168px;
+}
+.exhibit-card img {
+  width: 35%;
+  margin-right: 16px;
+}
+
+.exhibit-info h4 p {
+  padding-left: 8px;
+}
+.exhibit-info {
+  display: flex;
+  flex-direction: column;
+}
+.exhibit-card:first-child {
+  background: lightgrey;
+}
+.exhibit-vid {
+  margin-right: 24px;
+  width: 100%;
+}
+.exhibit-vid h3, .exhibit-vid p {
+  display: flex;
+  flex-direction: column;
+
+}
+
+.exhibition-featured h4 {
+  font-weight: bold;
+  font-family: 'Nunito', sans-serif;
+  margin-bottom: 8px;
+}
+
+.exhibition-featured h2 {
+  padding-top: 32px;
+}
+
+.exhibition-featured h3 {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+
+footer {
+  padding: 32px 0;
+}
+
+.copyright {
+  margin-left: 24px;
+}
+
+
+
+footer {
+    border-top: 1px solid grey;
+    padding: 8px 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.copyright {
+  margin-top: 16px;
+  margin-bottom: 16px;
+  font-family: arial;
+}
+
+footer > nav ul {
+    display: flex;
+    flex-direction: row;
+}
+footer > nav ul li:first-child {
+    margin-right: 8px;
+  }
+
+.footer-nav li {
+  margin-bottom: 16px;
+  font-family: arial;
+}
